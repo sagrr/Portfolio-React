@@ -8,7 +8,8 @@
 .hero h1 {
   text-align: center;
   width: 70%;
-  font-size: 90px;
+  /* font-size: 90px; */
+  font-size: 5rem;
   font-weight: 600;
   margin-top: 80px;
 }
@@ -58,6 +59,12 @@
 
 .hero-resume:hover {
   border-color: #b415ff;
+}
+@media (max-width: 418px) {
+  .hero-action {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {

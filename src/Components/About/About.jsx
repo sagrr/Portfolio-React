@@ -29,26 +29,18 @@ const About = () => {
             </p>
           </div>
           <div className="about-skills">
+            <h1>Technical Skills</h1>
             <div className="about-skill">
-              <p>
-                <span>Frontend</span> - JavaScript, React js, CSS, HTML,
-                TypeScript
-              </p>
+              <p>Frontend - JavaScript, React js, CSS, HTML, TypeScript</p>
             </div>
             <div className="about-skill">
-              <p>
-                <span>Backend</span> - Node js, Express js, TypeScript
-              </p>
+              <p>Backend - Node js, Express js, TypeScript</p>
             </div>
             <div className="about-skill">
-              <p>
-                <span>Version Control</span> - Git and GitHub
-              </p>
+              <p>Version Control - Git and GitHub</p>
             </div>
             <div className="about-skill">
-              <p>
-                <span>Database</span> - MySQL, Mongo DB
-              </p>
+              <p>Database - MySQL, Mongo DB</p>
             </div>
           </div>
         </div>

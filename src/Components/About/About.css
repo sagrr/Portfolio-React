@@ -110,6 +110,19 @@
   transition: 0.5s;
 }
 
+@media (max-width: 1170px) {
+  .about-sections {
+    flex-direction: column;
+  }
+  .about-left {
+    display: flex;
+    justify-content: center;
+  }
+  .about-left img {
+    border-radius: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .about {
     gap: 80px;

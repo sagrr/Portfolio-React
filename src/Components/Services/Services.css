@@ -78,7 +78,8 @@
   transition: 0.4s;
 }
 
-@media (max-width: 768px) {
+/* 768 */
+@media (max-width: 1100px) {
   .services {
     align-items: center;
     gap: 70px;
@@ -110,5 +111,11 @@
   .services-container {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
